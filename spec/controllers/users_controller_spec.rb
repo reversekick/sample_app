@@ -19,7 +19,7 @@ describe UsersController do
         second = Factory(:user, :name => "Bob", :email => "another@example.com")
         third  = Factory(:user, :name => "Ben", :email => "another@example.net")
         
-        30.times do
+        31.times do
           Factory(:user, :name => Factory.next(:name),
                          :email => Factory.next(:email))
         end

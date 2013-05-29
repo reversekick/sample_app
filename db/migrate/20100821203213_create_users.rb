@@ -7,7 +7,7 @@ class CreateUsers < ActiveRecord::Migration
       t.timestamps
     end
   end
-
+# HERE THE TABLE IS DROPPED
   def self.down
     drop_table :users
   end

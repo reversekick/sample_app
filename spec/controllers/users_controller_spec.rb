@@ -396,6 +396,7 @@ describe UsersController do
         get :followers, :id => @other_user
         response.should have_selector('a', :href => user_path(@user),
                                            :content => @user.name)
+#This is the end of tests
       end
     end
   end

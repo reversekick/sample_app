@@ -7,7 +7,7 @@ namespace :db do
     make_relationships
   end
 end
-
+#adding comment in build file 
 def make_users
   admin = User.create!(:name => "Example User",
                        :email => "example@railstutorial.org",
